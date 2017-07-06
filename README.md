@@ -1,6 +1,6 @@
 # Ubuntu-XPS15
 Install Ubuntu linux on Dell XPS 15 9550
-### <font color="#0099ff">一、安装配置Node</font> 
+### <font color="#009900">一、安装配置Node</font> 
 #### 1. 选择版本
 在[Node.js](https://nodejs.org/zh-cn/download/ "Node.js官网")选择相应版本
 #### 2. 下载（64位系统）
@@ -17,8 +17,8 @@ export PATH=$NODE_HOME/bin:$PATH
 ~~~Shell
 node -v
 ~~~
-### <font color="#0099ff">二、安装WeChat</font>
-###<font color="#0099ff">三、安装remarkable</font>
+### <font color="#009900">二、安装WeChat</font>
+### <font color="#009900">三、安装remarkable</font>
 #### 1. 下载安装包
 ~~~Shell
 http://remarkableapp.github.io/linux/download.html
@@ -31,7 +31,9 @@ dpkg -i remarkable_1.62_all.deb
 ~~~Shell
 sudo apt-get install -f
 ~~~
-#### 4. 测试运行
+#### 4. 测试运行个
 ~~~Shell
 remarkable &
 ~~~
+
+### <font color="#009900">四、Visual Studio Code安装</font>
